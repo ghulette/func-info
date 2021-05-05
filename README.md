@@ -10,6 +10,6 @@ Run `make merlin` so that your editor can find Frama-C's libraries.
 
 Run `make` to build the plugin.
 
-Run `frama-c -load-module top/FuncInfo -finfo` to run the plugin. Output will be logged to stdout.
+Run `frama-c -load-module top/FuncInfo -finfo FILE.c` to run the plugin. Output will be logged to stdout.
 
 Run `make install` to install the plugin into Frama-C's plugin directory.
