@@ -1,0 +1,8 @@
+META.frama-c-*
+top
+.depend
+*.cm*
+*.check_mli_exists
+*.o
+.Makefile.plugin.generated
+.merlin
